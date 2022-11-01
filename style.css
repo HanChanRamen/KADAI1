@@ -64,3 +64,39 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+@media screen and (max-width: 768px) {
+
+main {
+  width: 100%;
+  margin: 50px auto;
+  display: block;
+  padding-left: 25%;
+  padding-right: 20%
+
+}
+
+
+.step-img1 {
+  height: 150px;
+  width: 90%;
+  padding-bottom: 20px;
+}
+
+.step-img2 {
+  height: 150px;
+  width: 90%;
+}
+
+.step-img3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+
+}
+
+
+
+footer {
+  height: 50px;
+  padding-top: 50px;
+}
+}
